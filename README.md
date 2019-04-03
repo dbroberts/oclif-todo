@@ -124,4 +124,5 @@ _See code: [src\commands\update.js](https://github.com/dbroberts/oclif-todo/blob
 
 # Issues
 
-## mocha unit tests are not complete, they currently cover all code branches, but depend on todo database state, these need to be refined so they are more robust and can execute even when no tasks have been defined.
+## Unit Tests
+mocha unit tests are not complete, they currently cover all code branches, but depend on todo database state, these need to be refined so they are more robust and can execute even when no tasks have been defined.
