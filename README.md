@@ -11,6 +11,7 @@ Simple node.js todocli
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
+* [Issues](#issues)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
@@ -120,3 +121,6 @@ DESCRIPTION
 
 _See code: [src\commands\update.js](https://github.com/dbroberts/oclif-todo/blob/v0.0.1/src\commands\update.js)_
 <!-- commandsstop -->
+
+# Issues
+
