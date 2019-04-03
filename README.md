@@ -123,6 +123,8 @@ _See code: [src\commands\update.js](https://github.com/dbroberts/oclif-todo/blob
 <!-- commandsstop -->
 
 # Issues
+## Required parameters
+Several of the commands, like add, update, and remove require a name or id parameter (or flag).  There is support in oclif for defining required flags, but when defined as such via <command>.flags, the resulting error message apears to be directed to stderr instead of stdout, and I was unable to get the mocha tests to verify stderr output.  For this reason, required params are currently validated during the Command.run function.  This is an area that could be improved.
 
 ## Unit Tests
 The mocha unit tests are not complete. They cover all code branches, but depend on todo database state.  These need to be refined so they are more robust and can execute even when no tasks have been defined.
